@@ -1,0 +1,11 @@
+{
+  "manifest_version":2,
+  "version":"0.1",
+  "name": "Backlog 時間集計",
+  "content_scripts": [
+    {
+      "js": ["backlog-timeSum.js"],
+      "matches": ["https://*.backlog.jp/find/*"]
+    }
+  ]
+}
